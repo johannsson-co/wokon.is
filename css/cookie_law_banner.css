@@ -1,0 +1,112 @@
+/*    Cookie Consent Javascript Banner
+      Copyright 2013 Raul Alvarez r a u l . a l v a r e z @ g m a i l . c o m
+      This program is free software: you can redistribute it and/or modify
+      it under the terms of the GNU Lesser General Public License as published by
+      the Free Software Foundation, either version 3 of the License, or
+      (at your option) any later version.
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU Lesser General Public License for more details.
+      You should have received a copy of the GNU Lesser General Public License
+      along with this program.  If not, see <http://www.gnu.org/licenses/>. */
+
+    .cookieLawBox {
+        background-color:#666666;
+        color:#ffffff;
+        font-family:arial;
+        font-size:12px;
+        font-weight:normal;
+        text-align:center;
+        z-index:1000;
+    }
+
+    .cookieLawAnchor:link {
+        color:#ffffff;
+        text-decoration:underline;
+        font-family:arial;
+        font-size:12px;
+        font-weight:normal;
+    }
+
+    .cookieLawAnchor:visited {
+        color:#ffffff;
+        text-decoration:underline;
+        font-family:arial;
+        font-size:12px;
+        font-weight:normal;
+    }
+
+    .cookieLawAnchor:hover {
+        color:#ffffff;
+        text-decoration:underline;
+        font-family:arial;
+        font-size:12px;
+        font-weight:normal;
+    }
+
+    .cookieLawAnchor:active {
+        color:#ffffff;
+        text-decoration:underline;
+        font-family:arial;
+        font-size:12px;
+        font-weight:normal;
+    }
+
+    .cookieLawButton {
+        
+        background-color:#ffffff;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        
+        border:1px solid #dcdcdc;
+        
+        /*display:inline-block;*/
+        color:#666666;
+        font-family:arial;
+        font-size:12px;
+        font-weight:normal;
+        padding:4px 24px;
+        text-decoration:none;
+    }
+
+    .cookieLawButton:hover {
+        background-color:#f6f6f6;
+    }
+
+    .cookieLawButton:active {
+        background-color:#ffffff;
+    }
+
+    .cookieLawButtonAccept {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASAQMAAABsABwUAAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfdCB0TDgHSkoKTAAAAB3RJTUUH3QkJCgcNLgvnBgAAAAlwSFlzAAAK8AAACvABQqw0mAAAAAZQTFRFZmZm////c0tZqAAAAAJ0Uk5T/wDltzBKAAAAQklEQVR42i3MoQ2AQBAAwSUIJCVQCnTGExpbRxtfwssXhONIEGOHCIm+ES3Vn3IVOQc5RimfSZylprZIX+Xe5Ul5vA7NIzXVBOljAAAAAElFTkSuQmCC);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 10px 10px;
+        background-position: 4px 6px;
+    }
+
+    .cookieLawButtonDeny {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASAQMAAABsABwUAAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfdCB0TDTSvDBVzAAAAB3RJTUUH3QkJCgcX02kefAAAAAlwSFlzAAAK8AAACvABQqw0mAAAAAZQTFRFZmZm////c0tZqAAAAAJ0Uk5T/wDltzBKAAAAR0lEQVR42mP4//8Awx/+AwwfmA8wPGA8wHDwwQGGAz8OMDRUODB02Dgw9Mg4MPTxODD0szgwtDc4MBw/AFEDUgvSA9ILNAMAbuEfVA1FQOsAAAAASUVORK5CYII=);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 10px 10px;
+        background-position: 4px 6px;
+}
+
+    .cookieLawButtonInfo {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASAQMAAABsABwUAAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfdCB0TDjcdKBcKAAAAB3RJTUUH3QkJCgcmgrceRgAAAAlwSFlzAAAK8AAACvABQqw0mAAAAAZQTFRFZmZm////c0tZqAAAAAJ0Uk5T/wDltzBKAAAAKklEQVR42mP4//8AAxg/B+LDUPwcKiZ/gOFfP5AGYX4oH4TtIRgsBtEPACUgKdGmyJTFAAAAAElFTkSuQmCC);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 10px 10px;
+        background-position: 4px 6px;
+    }
+
+    .cookieLawButtonClose {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASAQMAAABsABwUAAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfdCB0TDhyxlO5KAAAAB3RJTUUH3QkJCgcxAWSbgQAAAAlwSFlzAAAK8AAACvABQqw0mAAAAAZQTFRFZmZm////c0tZqAAAAAJ0Uk5T/wDltzBKAAAAOUlEQVR42mP4//8AAwg//3yA4fDDAwyNBw4wHGg8wPCA+QDDB/YDDD/4IRjEBomB5EBqQGpBeqD6AYadJztnmkquAAAAAElFTkSuQmCC);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 10px 10px;
+        background-position: 4px 6px;
+    }
